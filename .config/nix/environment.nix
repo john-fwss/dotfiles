@@ -21,7 +21,6 @@
     systemPackages = with pkgs; [
       bat
       buf
-      buf-language-server
       cliphist
       discord
       docker
@@ -42,7 +41,6 @@
       lua-language-server
       mako
       mkdocs
-      neovim
       ngrok
       nixd
       ollama
@@ -64,9 +62,9 @@
       vscodium
       waybar
       wl-clipboard
+      zig
     ];
     variables = {
-      EDITOR = "nvim";
       STARSHIP_CONFIG = "/home/jjb/.config/starship/starship.toml";
       VISUAL = "nvim";
     };

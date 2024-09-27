@@ -26,4 +26,14 @@ Stow creates symlinks to these dotfiles. Once youve pulled this repo (hopefully 
 stow .
 ```
 
-and it will create symlinks to this directorys folders and files one directory up, i.e. everything here will be copied into the directory above so that your .config folder is in the right place where everything expects it to be.
+and it will create symlinks to this directory's folders and files one directory up, i.e. everything here will be copied into the directory above so that your .config folder is in the right place where everything expects it to be.
+
+To add more things to the (stow store??)
+
+```bash
+cp ~/.config/my-cool-new-thing ~/dotfiles/.config/my-cool-new-thing
+rm -rf ~/.config/my-cool-new-thing
+cd ~/dotfiles
+stow .
+```
+
