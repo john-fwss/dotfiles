@@ -2,6 +2,11 @@
 
 {
   programs = {
+    bash = {
+      interactiveShellInit = ''
+        eval "$(starship init bash)"
+      '';
+    };
     direnv = {
       enable = true;
       loadInNixShell = true;
