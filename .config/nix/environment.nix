@@ -22,6 +22,7 @@
       bat
       buf
       cliphist
+      devenv
       discord
       docker
       eza

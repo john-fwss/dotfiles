@@ -2,6 +2,11 @@
 
 {
   programs = {
+    direnv = {
+      enable = true;
+      loadInNixShell = true;
+      silent = true;
+    };
     git = {
       enable = true;
       config = [
