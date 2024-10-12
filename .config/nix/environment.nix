@@ -20,6 +20,7 @@
     };
     systemPackages = with pkgs; [
       bat
+      btop
       buf
       cliphist
       devenv
@@ -63,6 +64,7 @@
       vscodium
       waybar
       wl-clipboard
+      wttrbar
       zig
     ];
     variables = {
