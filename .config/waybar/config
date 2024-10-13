@@ -55,7 +55,15 @@
     "today-format": "<span color='#7645AD'><b><u>{}</u></b></span>",
     "format-calendar": "<span color='#aeaeae'><b>{}</b></span>",
     "format-calendar-weeks": "<span color='#aeaeae'><b>W{:%V}</b></span>",
-    "format-calendar-weekdays": "<span color='#aeaeae'><b>{}</b></span>"
+    "format-calendar-weekdays": "<span color='#aeaeae'><b>{}</b></span>",
+    "actions": {
+      "on-scroll-up": "tz_up",
+      "on-scroll-down": "tz_down"
+    },
+    "timezones": [
+      "Etc/UTC",
+      "America/Indiana/Indianapolis"
+    ]
   },
 
   "network": {
