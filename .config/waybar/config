@@ -34,7 +34,7 @@
   },
 
   "custom/weather": {
-    "format": "{}",
+    "format": "<span color='#FFFFFF'><b> {} °F</b></span>",
     "tooltip": true,
     "return-type": "json",
     "exec": "wttrbar --location Fort_Wayne --fahrenheit --mph",
