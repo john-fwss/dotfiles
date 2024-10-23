@@ -102,13 +102,5 @@
     }
   },
 
-  "temperature": {
-    "format": " {temperatureC}°C",            
-    "format-critical": " {temperatureC}°C",
-    "interval": 1,
-    "critical-threshold": 80,
-    "on-click": "foot btop",
-  },
-
 }
 
