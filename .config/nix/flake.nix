@@ -39,6 +39,7 @@
         ./nixpkgs.nix
         ./networking-gengar.nix
         ./programs.nix
+        ./programs-gengar.nix
         ./system.nix
         ./time.nix
         ./users.nix
